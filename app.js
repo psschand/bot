@@ -15,8 +15,11 @@ var Bot		= require("./bot");
 const testMode	= false;	// True: Ignore what day/time it is & will open buy-stop & sell-stop positions on all pairs
 
 // Oanda API Key
-const OANDA_KEY	= process.env.OANDA_KEY;	// Get that fro the envs
-const OANDA_ACC	= process.env.OANDA_ACC;	// Get that fro the envs
+
+const OANDA_KEY	= "7b77ceaae5392d731256b02cd6f49411-8a78048f817f4324ce6248974a5c2366"
+const OANDA_ACC	= "101-004-8641124-001"
+// const OANDA_KEY	= process.env.OANDA_KEY;	// Get that fro the envs
+// const OANDA_ACC	= process.env.OANDA_ACC;	// Get that fro the envs
 
 // Risk per position, in percents of your acccount balance
 const RISK		= 1.0;	
